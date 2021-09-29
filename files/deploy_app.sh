@@ -10,8 +10,8 @@ cat << EOM > /var/www/html/index.html
 
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
-  <center><h2>Meow World!</h2></center>
-  Welcome to ${PREFIX}'s app. Replace this text with your own.
+  <center><h2>Hey World!</h2></center>
+  This is setup by ${PREFIX} and runs at aws ${REGION} 
   <!-- END -->
 
   </div>
